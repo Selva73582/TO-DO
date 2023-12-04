@@ -17,6 +17,9 @@ from django.contrib.auth import login
 
 from . import models
 
+def home(request):
+    return HttpResponse("hoo")
+
 
 class TaskList(LoginRequiredMixin,ListView):
     model=models.Task
