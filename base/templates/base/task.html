@@ -1,0 +1,21 @@
+
+
+{% extends 'base/main.html' %}
+
+{% block content %}
+
+
+
+<h4><a href="{% url 'TaskList' %}">Go Back</a></h4>
+
+<h1>
+    The task is : {{task}}
+</h1>
+
+<h3>
+    {{task.description}}
+</h3>
+
+
+
+{% endblock content %}
