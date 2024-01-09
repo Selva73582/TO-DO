@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-@ah724y(l0%_1x9^kzv%15)4kv5&hvzr9n58qu@uz)8)5qa*8b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app','127.0.0.1','1cdd-121-200-52-130.ngrok-free.app','.ngrok-free.app','ngrok-free.app']
+ALLOWED_HOSTS = ['.vercel.app','127.0.0.1','1dfa-121-200-52-130.ngrok-free.app','.ngrok-free.app','ngrok-free.app']
 
 
 # Application definition
@@ -82,7 +82,7 @@ DATABASES = {
         'NAME': 'To-Do',
         'USER': 'root',
         'PASSWORD': '',
-        'HOST': 'https://1cdd-121-200-52-130.ngrok-free.app',
+        'HOST': 'https://1dfa-121-200-52-130.ngrok-free.app',
         'PORT': '3306',
     }
 }
